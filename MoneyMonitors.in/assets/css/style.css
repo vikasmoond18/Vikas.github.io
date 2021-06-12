@@ -475,6 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 640px) {
   #hero {
+    border-radius: 20px;
     height: 120vh;
   }
 }
@@ -2124,10 +2125,14 @@ section {
 #footer {
   color: #303131;
   font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #fff;
   background: #f9ba5d;
 }
 
 #footer .footer-top {
+  border-radius: 20px;
+  box-shadow: 0 0 5px #fff;
   padding: 60px 0 30px 0;
   background:#000;
 }
@@ -2139,6 +2144,7 @@ section {
 #footer .footer-top .footer-contact h4 {
   font-size: 22px;
   margin: 0 0 30px 0;
+  color: #eee;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
@@ -2147,6 +2153,7 @@ section {
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
+  color: #fff;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #626564;
@@ -2154,6 +2161,7 @@ section {
 
 #footer .footer-top h4 {
   font-size: 16px;
+  color: #eee;
   font-weight: bold;
   color: #313030;
   position: relative;
@@ -2167,6 +2175,7 @@ section {
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
+  color: #dadada;
   margin: 0;
 }
 
