@@ -4147,6 +4147,9 @@ a.read-more-btn2.btn:hover {
   align-items: center;
   /* min-height: 100%; */
   min-height: 46em;
+  border-radius: 15px;
+  margin: 8px;
+  margin-top: 70px
 }
 
 .w3l-banner-slider-main .right-1 {
@@ -14708,8 +14711,13 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 98%;
+  border-radius: 25px;
   overflow: hidden;
+  margin-top: 70px;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 8px;
 }
 
 .carousel-inner::after {
